@@ -1,0 +1,60 @@
+/*Default Style Sheet template*/
+
+body{
+    
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#work_timer{
+    margin-bottom: 25px;
+}
+
+#menuHolder{
+    margin: 50px;
+    width: 100%;
+    height: 10%;
+    display:flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttonHolder{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#pauseButton{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#enterMinutes{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#enterSeconds{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
